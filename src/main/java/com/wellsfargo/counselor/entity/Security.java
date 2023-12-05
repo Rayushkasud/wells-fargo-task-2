@@ -1,13 +1,14 @@
 package com.wellsfargo.counselor.entity;
 
 import java.sql.Date;
-
+import jakarta.persistence.Entity;
 import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 
+@Entity
 public class Security {
 
     @Id
